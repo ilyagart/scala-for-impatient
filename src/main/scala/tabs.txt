@@ -1,0 +1,6 @@
+ space	tab space	tab space	tab
+ space	tab space	tab space	tab
+ space	tab space	tab space	tab
+ space	tab space	tab space	tab
+ space	tab space	tab space	tab
+	tab	tab	space		2tabs					4tabs	
