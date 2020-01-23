@@ -1,4 +1,6 @@
-object SystemApp extends App {
+package ScalaForImpatient7
+
+object Chapter7Ex9 extends App {
   import java.lang.System._
 
   val username = getProperty("user.name")

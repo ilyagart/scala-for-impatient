@@ -1,19 +1,24 @@
-package com {
+// Chapter 7. Packages and Imports
+package ScalaForImpatient7.com {
+
   object inCom {
-    val value = "com"
+    val value: String = "com" +
+      ""
     override def toString: String = s"$value"
   }
   package horstmann {
     object inHorstmann {
-      val value = "hostmann"
+      val value = "horstmann"
       override def toString: String = s"$value"
     }
     object Utils {
       def percentOf(value: Double, rate: Double): Double = value * rate / 100
     }
     package impatient {
+
       object inImpatient {
         val value = "impatient"
+
         override def toString: String = s"$value"
       }
 
@@ -24,7 +29,11 @@ package com {
           salary += Utils.percentOf(salary, rate)
         }
       }
-      object SomeObj { def someValue: Int = Random.nextInt }
+
+      object SomeObj {
+        def someValue: Int = Random.nextInt
+      }
+
     }
   }
 }
